@@ -220,3 +220,188 @@ a {
     color: white;
     margin-left: 5px;
 }
+
+
+/* what blocks ==================================================
+============================================ */
+
+.what__blocks {
+    width: 100%;
+    background-color: black;
+}
+
+.what__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.what__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    animation-name: whattop;
+    animation-duration: 1.5s;
+    transition: 1s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes whattop {
+    from {
+        margin-top: 200px;
+        transition: 1.5s;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0;
+        transition: 1.5s;
+        opacity: 1;
+    }
+}
+
+.what__top h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.what__top p {
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.what__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what__cards1,
+.what__cards2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.what__card1 {
+    width: 48%;
+    height: 600px;
+    background-image: url(images/what\ card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .8s;
+    justify-content: end;
+}
+
+.what__card2 {
+    width: 48%;
+    height: 600px;
+    background-image: url(images/what\ card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .8s;
+    justify-content: end;
+}
+
+.what__card3 {
+    width: 48%;
+    height: 600px;
+    background-image: url(images/what\ card3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .8s;
+    justify-content: end;
+}
+
+.what__card4 {
+    width: 48%;
+    height: 600px;
+    background-image: url(images/what\ card4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .8s;
+    justify-content: end;
+}
+
+.what__card1:hover,
+.what__card2:hover,
+.what__card3:hover,
+.what__card4:hover {
+    opacity: .8;
+    padding-bottom: 25px;
+    transition: .8s;
+}
+
+.what__cards h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.what__cards p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+.what__cards a {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+    transition: .8s;
+    padding-bottom: 30px;
+}

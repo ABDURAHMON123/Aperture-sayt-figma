@@ -17,6 +17,15 @@
     .header__text1 p {
         font-size: 12px;
     }
+    /* what blocks--------------------------
+    ======================================= */
+    .what__cards h1 {
+        font-size: 13px;
+    }
+    .what__cards p {
+        font-size: 12px;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -38,6 +47,31 @@
     }
     .header__text1 h1 {
         font-size: 45px;
+    }
+    /* what blocks--------------------------
+    ======================================= */
+    .what__top h1 {
+        font-size: 35px;
+    }
+    .what__top p {
+        font-size: 20px;
+    }
+    .what__card1,
+    .what__card2,
+    .what__card3,
+    .what__card4 {
+        width: 45%;
+        height: 500px;
+    }
+    .what__cards h1 {
+        font-size: 12px;
+    }
+    .what__cards p {
+        font-size: 11px;
+        width: 95%;
+    }
+    .what__cards a {
+        font-size: 9px;
     }
 }
 
@@ -122,6 +156,40 @@
     .header__text1 h1 {
         font-size: 45px;
     }
+    /* what blocks--------------------------
+    ======================================= */
+    .what__top {
+        margin-bottom: 70px;
+    }
+    .what__top h1 {
+        font-size: 35px;
+    }
+    .what__top p {
+        font-size: 20px;
+    }
+    .what__cards1,
+    .what__cards2 {
+        flex-direction: column;
+        margin: 0;
+    }
+    .what__card1,
+    .what__card2,
+    .what__card3,
+    .what__card4 {
+        width: 90%;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .what__cards h1 {
+        font-size: 13px;
+    }
+    .what__cards p {
+        font-size: 12px;
+        width: 98%;
+    }
+    .what__cards a {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 511.99px) and (min-width: 300px) {
@@ -205,5 +273,42 @@
     }
     .header__text__bottom {
         justify-content: center;
+    }
+    /* what blocks--------------------------
+    ======================================= */
+    .what__top {
+        margin-bottom: 50px;
+    }
+    .what__top h1 {
+        font-size: 30px;
+    }
+    .what__top p {
+        font-size: 15px;
+    }
+    .what__cards1,
+    .what__cards2 {
+        flex-direction: column;
+        margin: 0;
+    }
+    .what__card1,
+    .what__card2,
+    .what__card3,
+    .what__card4 {
+        width: 90%;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .what__cards h1 {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .what__cards p {
+        padding-left: 5px;
+        font-size: 10px;
+        width: 98%;
+    }
+    .what__cards a {
+        padding-left: 5px;
+        font-size: 9px;
     }
 }

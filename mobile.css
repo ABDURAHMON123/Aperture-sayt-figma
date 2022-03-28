@@ -26,6 +26,11 @@
         font-size: 12px;
         width: 95%;
     }
+    /* sunset blocks=========
+    =============================================== */
+    .sunset__text {
+        margin-bottom: 22%;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -72,6 +77,13 @@
     }
     .what__cards a {
         font-size: 9px;
+    }
+    /* sunset blocks=========
+    =============================================== */
+    .sunset__text {
+        margin-bottom: 28%;
+        margin-right: 20px;
+        width: 50%;
     }
 }
 
@@ -189,6 +201,19 @@
     }
     .what__cards a {
         font-size: 10px;
+    }
+    /* sunset blocks=========
+    =============================================== */
+    .sunset__text {
+        margin-bottom: 35%;
+        margin-right: 20px;
+        width: 50%;
+    }
+    .sunset__texts h1 {
+        font-size: 13px;
+    }
+    .sunset__texts p {
+        font-size: 12px;
     }
 }
 
@@ -310,5 +335,17 @@
     .what__cards a {
         padding-left: 5px;
         font-size: 9px;
+    }
+    /* sunset blocks=========
+    =============================================== */
+    .sunset__text {
+        margin-bottom: 45%;
+        width: 90%;
+    }
+    .sunset__texts h1 {
+        font-size: 13px;
+    }
+    .sunset__texts p {
+        font-size: 12px;
     }
 }
